@@ -1,0 +1,18 @@
+$font-inter: "Inter", sans-serif;
+
+body {
+  font-family: $font-inter;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 375px;
+  min-height: 100vh;
+  background-image: url("./assets/images/pattern-curve.svg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+  @media (max-width: 800px) {
+    background-size: 100%;
+  }
+}
