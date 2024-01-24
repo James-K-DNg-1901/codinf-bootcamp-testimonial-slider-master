@@ -50,7 +50,7 @@ function Main() {
         </div>
         <div className="bio">
           <p>" {bio} "</p>
-          <h1>{name}</h1>
+          <b>{name}</b>
           <span>{job}</span>
         </div>
       </div>
